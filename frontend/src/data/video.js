@@ -1,0 +1,15 @@
+export const Media = [
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330247/img-6_p6c15o.jpg', title: "video1", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330247/img-5_xvrfao.jpg', title: "video2 ", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330248/img-9_prkle7.jpg', title: "video 3", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330249/img-7_caztri.jpg', title: "video 4", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330249/img-2_oqk7ho.jpg', title: "video 5", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330250/img-8_ye7t3x.jpg', title: "video 6", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330250/img-1_hld0dx.jpg', title: "video 7", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330255/img-3_yyissz.jpg', title: "video8", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330255/img-3_yyissz.jpg', title: "video 9", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330255/img-3_yyissz.jpg', title: "video 10", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330255/img-3_yyissz.jpg', title: "video 11", watchedCheckbox: false, viewer: 0 },
+    { type: 'video', url: 'https://res.cloudinary.com/dwjqz8eyv/video/upload/v1707330548/video-1_h3qqmo.mp4', thumbnail: 'https://res.cloudinary.com/dwjqz8eyv/image/upload/v1707330255/img-3_yyissz.jpg', title: "video 12", watchedCheckbox: false, viewer: 0 }
+
+]

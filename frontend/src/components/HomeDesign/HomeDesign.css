@@ -1,0 +1,64 @@
+.design{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 750px;
+    margin: 20px 0;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 30px;
+}
+
+.post-img {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.post-img img{
+    margin: 30px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.post-img-text{
+    position: absolute;
+    background-color: #E1E6D9;
+    width: 300px;
+    bottom: -20px;
+    left: 230px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.post-img2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+.post-img2 img{
+    margin: 30px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.post-img2-text{
+    position: absolute;
+    background-color: #E1E6D9;
+    width: 300px;
+    top: 0px;
+    left: -180px;
+    padding: 10px;
+    opacity: 0.9;
+}
+

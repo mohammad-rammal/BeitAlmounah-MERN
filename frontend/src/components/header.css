@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+.header {
+    height: 250px;
+    background-color: var(--primary-color);
+    width: 100%;
+    position: relative;
+}
+
+/* Header Top */
+.header-top {
+    padding: 0 30px;
+    height: 20%;
+    border-bottom: 1px solid var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-menu {
+    display: none;
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-top-phone,
+.header-top-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.header-top-phone i {
+    font-size: 27px;
+    margin-right: 5px;
+}
+
+.header-top-link i {
+    font-size: 27px;
+}
+
+.header-top-image {
+    width: 50px;
+    height: 50px;
+}
+
+.header-top-text {
+    font-family: 'Island Moments', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.header-top-link {
+    text-decoration: none;
+}
+
+.olive-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px -10px;
+}
+
+/* Header Middle */
+.header-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 50%;
+    background-color: #E1E6D9;
+}
+
+.header-middle-logo {
+    color: #233000;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-middle-logo i {
+    margin: 0 6px;
+    color: #233000;
+}
+
+.header-middle-logo i {
+    font-size: 40px;
+}
+
+.header-middle-search-box {
+    width: 700px;
+    background-color: white;
+    height: 60px;
+
+    border-radius: 50px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.header-middle-search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 25px;
+    font-size: 24px;
+}
+
+.header-middle-search-box i.bi-search {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    font-size: 40px;
+    color: gray;
+}
+
+.header-middle-cart-wrapper {
+    position: relative;
+}
+
+.cart-notification {
+    position: absolute;
+    top: -7px;
+    right: -12px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.header-middle-cart-wrapper i.bi-cart2 {
+    font-size: 44px;
+    color: #233000;
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 1px 1px white;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-link {
+    padding: 0 20px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    background-color: snow;
+    color: var(--primary-color);
+}
+
+/* Media Queries */
+@media (max-width : 990px) {
+    .header-middle-search-box {
+        width: 600px;
+    }
+}
+
+@media (max-width : 920px) {
+    .header-middle-search-box {
+        width: 450px;
+    }
+
+
+    .header-top-text {
+        font-size: 40px;
+
+        .header-top-text {
+            font-size: 17px;
+
+        }
+
+        .header-middle-logo {
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+}
+
+
+@media (max-width : 720px) {
+    .header-top-text {
+
+        display: none;
+    }
+
+    .header-top-menu {
+        display: block;
+    }
+
+    .header-middle {
+        flex-wrap: wrap;
+        padding: 0 30px;
+        height: 80%;
+    }
+
+
+    .header-middle-search-box {
+        width: 80%;
+
+        .header-middle-search-box {
+            width: 100%;
+
+        }
+
+        .header-middle-logo {
+            display: none;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 50px;
+            left: -300px;
+            width: 300px;
+            height: 100vh;
+            align-items: flex-start;
+            z-index: 999;
+            transition: all 1s ease;
+        }
+
+        .navbar-links {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: max-content;
+            width: 100%;
+        }
+
+        .navbar-link {
+            width: 100%;
+            padding: 20px;
+        }
+    }
+
+    .ds {
+        padding: 62px 0px;
+    }
+
+    .dateTimeParagraph {
+        font-size: 38px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .zzz{
+        font-size: 100px;
+        color: red;
+    }
+
+
+    .header-right-user-info {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .header-right-user-info.img {
+        width: 50px;
+    }
+
+    .header-right-username {
+        font-size: 21px;
+        font-weight: 500;
+        color: var(--main-color);
+        margin-right: 10px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    .header-right-user-photo {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .header-right-dropdown {
+        position: absolute;
+        right: 50%;
+        top: 100%;
+        background-color: var(--main-color);
+        border: 1px solid var(--white-color);
+        border-radius: 5px;
+        padding: 5px;
+        width: 150px;
+        text-align: left;
+    }
+
+    .header-dropdown-item {
+        color: var(--primary-color);
+        font-weight: 500;
+        font-size: 21px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width : 520px) {
+    .header-top {
+        padding: 0 15px;
+    }
+
+    .header-middle {
+        padding: 0 15px;
+    }
+
+    .header-top-phone {
+        font-size: 20px;
+    }
+}
+
+
+
+.img-logo {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 23px;
+}

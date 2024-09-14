@@ -1,0 +1,123 @@
+.form-wrapper {
+    height: calc(100vh - 200px);
+    width: 700px;
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 51px;
+    border-radius: 10px;
+    background-color: #283A22;
+    filter: brightness(100%);
+
+}
+
+.form-img img {
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
+    margin-left: -90px;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.special .form-title {
+    font-size: 27px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.special .form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    position: relative;
+}
+
+.special .form input {
+    border: 2px solid teal;
+    padding: 10px;
+    font-size: 21px;
+    margin: 0 auto 15px;
+    background-color: red;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    /* 70% transparent gray border */
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.special .form input:hover {
+    background-color: #E1E6D9;
+}
+
+.special .form input:focus {
+    outline: none;
+}
+
+.special .form-btn {
+    width: 60%;
+    background-color: white;
+    color: var(--prim);
+    cursor: pointer;
+    padding: 10px 5px;
+    font-weight: 700;
+    font-size: 21px;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.special .form-btn:hover {
+    background-color: #b0efb5;
+}
+
+.special .form-footer {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.help {
+    color: rgb(118, 224, 118);
+    text-decoration: none;
+}
+
+@media (max-width: 620px) {
+    .form-img img {
+        display: none;
+    }
+
+    .form-wrapper {
+        width: 90%;
+        justify-content: center
+    }
+
+    .form-column {
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .form-wrapper {
+        height: auto;
+    }
+}
+
+.show-password-icon {
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 21px;
+    color: rgb(4, 70, 17);
+    z-index: 3;
+    cursor: pointer;
+}
+

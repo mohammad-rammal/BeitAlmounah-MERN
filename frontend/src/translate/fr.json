@@ -1,0 +1,33 @@
+{
+    "header": {
+      "home": "Accueil",
+      "workshops": "Ateliers",
+      "about": "À Propos de Nous",
+      "contact": "Contactez-Nous",
+      "login": "Se Connecter",
+      "register": "S'Inscrire",
+      "adminDashboard": "Tableau de Bord Admin",
+      "chat": "Chat",
+      "createProduct": "Créer un Produit",
+      "users": "Utilisateurs",
+      "products": "Produits",
+      "addCategories": "Ajouter des Catégories",
+      "categories": "Catégories",
+      "workshopsAdmin": "Ateliers",
+      "notFound": "Page Non Trouvée"
+    },
+    "footer": {
+      "title1": "Beit Almonah",
+      "home": "Accueil",
+      "workshops": "Ateliers",
+      "blog": "Blog",
+      "aboutUs": "À Propos de Nous",
+      "contactUs": "Contactez-Nous",
+      "contactInformation": "Coordonnées",
+      "location": "Liban - Beyrouth",
+      "phone": "71 123 456",
+      "email": "beitalmoneh@gmail.com",
+      "about": "À Propos de Nous"
+    }
+  }
+  

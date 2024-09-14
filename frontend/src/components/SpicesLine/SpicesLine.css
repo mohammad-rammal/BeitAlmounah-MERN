@@ -1,0 +1,27 @@
+.spices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.spices img {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spices img {
+    animation: rotate 5s linear infinite;
+    /* Adjust the duration and timing function as needed */
+}

@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    padding: 10px;
+    /* background-color: white; */
+    max-width: fit-content;
+    margin: 30px auto;
+
+}
+
+.btn {
+    border: none;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: rgb(37, 37, 54);
+    color: white;
+}
+
+.addContainer {
+    z-index: 99999;
+    position: absolute;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    /* 70% transparent gray border */
+    background-color: rgba(153, 226, 119, 0.3);
+    /* 70% transparent white background */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addContainer form {
+    width: 820px;
+    background-color: rgb(213, 226, 200);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+.addContainer form input {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.addContainer form label {
+    font-size: 18px;
+}
+
+.addContainer form button {
+    background-color: rgb(12, 82, 17);
+    color: white;
+    font-weight: 550px;
+    margin-top: 20px;
+}
+
+.addContainer form .close-btn {
+    margin-left: auto;
+    font-size: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+
+/* //////////////////////////////// */
+
+
+.btn-edit,
+.btn-delete {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.btn-edit {
+    background-color: rgb(76, 219, 76);
+}
+
+.btn-edit:hover {
+    background-color: green;
+}
+
+.btn-delete {
+    background-color: rgb(236, 77, 77);
+}
+
+.btn-delete:hover {
+    background-color: red;
+}
+
+.searchInp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInp input {
+    background-color: rgb(193, 209, 193);
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 20px 15px;
+}
+
+.searchInp input:hover {
+    background-color: rgb(57, 107, 57);
+    color: white;
+}
+
+.filterrole {
+    background-color: rgb(193, 209, 193);
+    margin-left: 10px;
+    height: 40px;
+    padding: 10px 5px;
+}
+
+.filterrole:hover {
+    background-color: rgb(57, 107, 57);
+    color: white;
+}
+
+.imggg {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imggg input {
+    margin-left: 10px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+
+    .table th,
+    .table td {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .table thead {
+        display: none;
+        /* Hide the table header on small screens */
+    }
+
+    .table tbody {
+        display: block;
+        width: 100%;
+    }
+
+    .table tbody tr {
+        display: block;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .table tbody td {
+        display: block;
+        text-align: center;
+    }
+
+    .table tbody td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .object-cover {
+        object-fit: cover;
+        background-position: center;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .searchInp {
+        flex-direction: column;
+        /* Stack elements vertically on small screens */
+        align-items: stretch;
+        /* Stretch elements to full width */
+    }
+
+    .searchInp input {
+        width: 100%;
+        /* Make inputs and select full width */
+    }
+
+    .searchInp select {
+        width: 40%;
+        background-color: rgb(178, 209, 178);
+    }
+}

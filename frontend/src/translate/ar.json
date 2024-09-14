@@ -1,0 +1,33 @@
+{
+    "header": {
+      "home": "الصفحة الرئيسية",
+      "workshops": "ورش العمل",
+      "about": "معلومات عنا",
+      "contact": "اتصل بنا",
+      "login": "تسجيل الدخول",
+      "register": "تسجيل",
+      "adminDashboard": "لوحة القيادة للمشرف",
+      "chat": "محادثة",
+      "createProduct": "إنشاء منتج",
+      "users": "المستخدمين",
+      "products": "المنتجات",
+      "addCategories": "إضافة فئات",
+      "categories": "الفئات",
+      "workshopsAdmin": "ورش العمل",
+      "notFound": "الصفحة غير موجودة"
+    },
+    "footer": {
+      "title1": "بيت المناه",
+      "home": "الصفحة الرئيسية",
+      "workshops": "ورش العمل",
+      "blog": "مدونة",
+      "aboutUs": "معلومات عنا",
+      "contactUs": "اتصل بنا",
+      "contactInformation": "معلومات الاتصال",
+      "location": "لبنان - بيروت",
+      "phone": "71 123 456",
+      "email": "beitalmoneh@gmail.com",
+      "about": "معلومات عنا"
+    }
+  }
+  

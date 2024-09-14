@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap');
+
+.full {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 99999;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.wel {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    font-weight: bold;
+    color: #1b5106;
+    text-align: center;
+    margin-bottom: 20px;
+
+    position: fixed;
+    z-index: 99999;
+    top: 10px;
+    right: 400px;
+}
+
+.enter {
+    position: fixed;
+    z-index: 999;
+    top: 90px;
+    right: 600px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1b5106;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+.wel,
+.enter {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
