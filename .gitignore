@@ -128,3 +128,5 @@ dist
 
 *.md
 *.env
+
+*node_modules/
